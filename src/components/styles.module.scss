@@ -1,0 +1,34 @@
+.Author {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+.Text {
+  margin: 1rem 0;
+}
+
+.Button {
+  display: block;
+  background-color: #1c175777;
+  color: #fafafa;
+
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.25rem;
+  font-size: inherit;
+  cursor: pointer;
+
+  transition: background-color 250ms ease-in-out;
+
+  &:hover {
+    background-color: #1c1757bb;
+  }
+}
+
+.link {
+  text-decoration: none;
+
+  &:hover {
+    color: #fafafa;
+  }
+}
